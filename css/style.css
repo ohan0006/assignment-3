@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    
+
+}
+
+.wrapper {
+    max-width: 940px;
+    align-items: center;
+    
+}
+
+header div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+#hero {
+    display: flex;
+    height: 500px;
+    background-image: url(/images/hands-typing.jpg);
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(70%);
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #fff;
+    max-width: 60%;
+    background-color: rgba(0, 0, 0, .5);
+    text-shadow: 1px 1px 1px #000;
+    text-align: center;
+}
+
+#about-me .wrapper{
+    display: grid;
+    max-width: 940px;
+    grid-template-columns: 1fr 1fr;
+}
+
+#about-me img {
+    max-width: 50%;
+    align-self: center;
+}
+
+#services {
+    max-width: 940px;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+#services div {
+    max-width: 940px;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+
