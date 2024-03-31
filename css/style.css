@@ -70,8 +70,50 @@ h1 {
 }
 
 #services div {
+    /* display: grid;
     max-width: 940px;
     align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3fr; */
+}
+
+#services div article {
+    display: grid;
+    max-width: 940px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3fr;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    margin-bottom: auto;
+    padding: .8em 1em;
+    background-color: black;
+    border: black;
+    color: white;
+}
+
+div a:hover,
+div a:focus{
+    background-color: white;
+    color: black;
+    border: black;
+}
+
+.work {
+    max-width: 940px;
+}
+
+.work div {
+    max-width: 940px;
+    align-items: center;
+}
+
+.work div div {
+    display: grid;
+    grid-area: ;
 }
 
 img {
