@@ -45,7 +45,7 @@ a:link {
 #hero {
     display: flex;
     height: 500px;
-    background-image: url(/images/hands-typing.jpg);
+    background-image: url(../images/hands-typing.jpg);
     background-size: cover;
     background-position: center;
     filter: grayscale(70%);
